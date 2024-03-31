@@ -1,0 +1,44 @@
+.user {
+    button {
+        border: 1px solid var(--border-color-primary);
+        background-color: var(--background-color-primary);
+    
+        padding: 0.25rem;
+    }
+}
+
+.user__name {
+    padding: 0.5rem 2rem;
+    background-color: var(--background-color-primary);
+
+    input {
+        font-size: 1rem;
+
+        padding: 0.2rem;
+
+        outline: none;
+
+        border: 1px solid var(--border-color-primary);
+        background-color: var(--background-color-primary);
+    }
+}
+
+.user__information {
+    display: flex;
+
+    padding: 0.5rem;
+
+    img {
+        height: 2rem;
+        width: 2rem;
+
+        padding: 0.5rem;
+
+        border: 1px solid grey;
+        border-radius: 2rem;
+    }
+
+    table {
+        border-spacing: 2rem 0;
+    }
+}
